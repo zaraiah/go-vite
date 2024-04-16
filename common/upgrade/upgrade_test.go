@@ -145,6 +145,10 @@ func TestLatestUpgradeBox(t *testing.T) {
 			1,
 		},
 		{
+			IsVersion13Upgrade,
+			1,
+		},
+		{
 			IsVersionXUpgrade,
 			1,
 		},
