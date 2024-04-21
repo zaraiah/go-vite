@@ -55,6 +55,10 @@ func NewLatestUpgradeBox() *upgradeBox {
 			Height:  1,
 			Version: 13,
 		},
+		{
+			Height:  1,
+			Version: 14,
+		},
 	})
 }
 

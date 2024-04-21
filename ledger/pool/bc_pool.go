@@ -509,7 +509,7 @@ func (bcp *BCPool) CurrentChain() tree.Branch {
 
 func (bcp *BCPool) loop() {
 	for {
-		bcp.loopGenSnippetChains()
+		bcp.loopGenSnippetChains(false)
 		bcp.loopAppendChains()
 		bcp.loopFetchForSnippets()
 		time.Sleep(time.Second)
